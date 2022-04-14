@@ -1,0 +1,10 @@
+home:
+  vars:
+    ansible_group_priority: 1
+  hosts:
+    macbook:
+      ansible_ssh_host: 192.168.0.101
+      serverHostname: macbook
+      ansible_user: ori
+      ansible_ssh_pass: 16200100
+      ansible_become_pass: 16200100

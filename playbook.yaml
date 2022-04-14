@@ -1,0 +1,4 @@
+- hosts: all
+  roles:
+    - {role: "network", tags: ["network"]}
+  become: true

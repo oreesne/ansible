@@ -1,0 +1,5 @@
+
+- name: copy hosts file
+  template:
+    src: "{{ role_path }}/files/hosts.j2"
+    dest: "/etc/hosts"
